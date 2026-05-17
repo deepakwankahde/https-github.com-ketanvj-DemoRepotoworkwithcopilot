@@ -15,7 +15,7 @@ public class LoginPageCMS extends CommonPageCMS {
     private By buttonLogin = By.xpath("(//a[normalize-space()='Registration']/parent::li)/preceding-sibling::li");
     private By buttonCopyAdminAcc = By.xpath("//button[normalize-space()='Copy']");
     private By buttonSubmitLogin = By.xpath("//button[normalize-space()='Login']");
-    private By titleLoginPage = By.xpath("//h1[normalize-space() = 'Login to your account.']");
+    private By titleLoginPage = By.xpath("//*[normalize-space() = 'Login to your account.']");
     private By messageRequiredEmail = By.xpath("//strong[contains(text(),'The email field is required when phone is not present.')]");
     private By inputEmail = By.xpath("//input[@id='email']");
     private By inputPassword = By.xpath("//input[@id='password']");
